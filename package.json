@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "test:wp": "node scripts/test-wp.mjs",
-    "test:wp:real": "node scripts/test-wp.mjs --real"
+    "test:wp:real": "node scripts/test-wp.mjs --real",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.2",
